@@ -88,3 +88,7 @@ let animation2 = scrollAnimate.create(timeline2, 150, 1000, (progress) => {
 ## Todo
 + Reverse mode
 + Tests
+
+
+[npm-url]: https://npmjs.org/package/scrollanimate
+[npm-image]: http://img.shields.io/npm/v/scrollanimate.svg
