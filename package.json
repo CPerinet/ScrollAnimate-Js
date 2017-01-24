@@ -1,6 +1,6 @@
 {
   "name": "scrollanimate",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Animate with scroll",
   "main": "lib/scrollanimate.js",
   "repository" : {
