@@ -1,10 +1,10 @@
 const config = {
   entry: {
-    app: ['./lib/scrollAnimate.js']
+    app: ['./lib/scrollanimate.js']
   },
 
   output: {
-    filename: 'scrollAnimate.js',
+    filename: 'scrollanimate.js',
     path: './build/'
   },
 

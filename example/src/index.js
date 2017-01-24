@@ -1,5 +1,5 @@
 import './scss/app.scss'
-import ScrollAnimate from '../../lib/scrollAnimate'
+import ScrollAnimate from '../../lib/scrollanimate'
 
 let wrapper = document.getElementById('wrapper')
 let timeline1 = document.getElementById('timeline1')
