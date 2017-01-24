@@ -1,0 +1,56 @@
+.home-page {
+	height: 100vh;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+
+	.content {
+		@include gridle(8 tablet 12 mobile 14);
+		@include gridle(grid-centered);
+	}
+
+	p {
+		padding: 50px 0;
+	}
+
+	.timeline {
+		@include gridle(16);
+
+		padding: 20px 0;
+		position: relative;
+		width: 100%;
+		overflow-x: hidden;
+
+		&_bar {
+			position: relative;
+			z-index: 10;
+			height: 130px;
+			width: 0%;
+			background-color: $color-accent;
+		}
+
+		&::after {
+			content: 'please scroll...';
+			color: $color-neutral-200;
+			font-style: italic;
+
+			@extend .alignXY;
+		}
+	}
+
+	.credits {
+		@include gridle(8 tablet 12 mobile 14);
+		@include gridle(grid-centered);
+
+		margin-bottom: 40px;
+		text-align: center;
+
+		a {
+			color: $color-dark;
+			opacity: 0.6;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}

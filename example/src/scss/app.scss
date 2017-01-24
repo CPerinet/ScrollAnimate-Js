@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'utils/reset';
+@import 'utils/align';
+@import 'utils/gridle_config';
+@import 'components/type';
+@import 'pages/home';
+
+* {
+	text-rendering: optimizeLegibility;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: #fcfcfc;
+	overflow: hidden;
+}
