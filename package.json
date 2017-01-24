@@ -1,11 +1,8 @@
 {
   "name": "scrollanimate",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Animate with scroll",
-  "main": "build/scrollanimate.min.js",
-  "scripts": {
-    "build": "webpack"
-  },
+  "main": "lib/scrollanimate.js",
   "repository" : {
       "type": "git",
       "url": "https://github.com/CPerinet/scrollAnimategit"
@@ -14,14 +11,5 @@
   "license": "MIT",
   "dependencies": {
     "hamsterjs": "^1.1.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.22.0",
-    "eslint": "^3.14.0",
-    "eslint-loader": "^1.6.1",
-    "webpack": "^1.14.0"
   }
 }
