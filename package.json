@@ -1,8 +1,8 @@
 {
   "name": "scrollanimate",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Animate with scroll",
-  "main": "lib/scrollanimate.js",
+  "main": "build/scrollanimate.min.js",
   "scripts": {
     "build": "webpack"
   },
