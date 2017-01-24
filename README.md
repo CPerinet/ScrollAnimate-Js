@@ -1,4 +1,4 @@
-# ScrollAnimate
+# ScrollAnimate [![NPM version][npm-image]][npm-url]
 
 Animate on scroll.
 
