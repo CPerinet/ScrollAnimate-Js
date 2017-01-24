@@ -48,7 +48,7 @@ function onAnimatingUpdate(isAnimating) {
 |wrapper|DOM element|Main wrapper, scrollAnimate add event listeners to this wrapper|
 |onAnimatingUpdate|function(isAnimating)|Callback triggered when the animating state change|
 
-### Create new animaiton
+### Create new animation
 
 ```javascript
 var animation = scrollAnimate.create(element, triggerOffsetTop, scrollForComplete, onProgressUpdate)
