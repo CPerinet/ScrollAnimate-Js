@@ -1,6 +1,6 @@
 {
   "name": "scrollanimate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animate with scroll",
   "main": "lib",
   "scripts": {
